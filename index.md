@@ -90,3 +90,8 @@
 ---
 
 [📧 Contact Me](mailto:Gvinodsvishnu37@gmail.com) | [📄 Download Full CV](./assets/VISHNU_VS~ACADEMIC.pdf)
+<div style="text-align: center; margin-top: 50px; padding: 40px; background: #f8f9fa; border-radius: 10px;">
+  <h3>Interested in collaborating on Research?</h3>
+  <p>I am currently open to data-driven research roles and PhD opportunities.</p>
+  <a href="mailto:Gvinodsvishnu37@gmail.com" style="background-color: #3498db; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Get In Touch</a>
+</div>
