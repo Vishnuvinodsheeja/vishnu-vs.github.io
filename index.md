@@ -1,7 +1,7 @@
 <div id="particles-js" style="position: relative; width: 100%; height: 450px; background-color: #0d1117; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 10px; overflow: hidden;">
   
   <div style="z-index: 1; text-align: center; color: white;">
-    <img src="./assets/your-photo.jpg" style="width: 130px; border-radius: 50%; border: 3px solid #3498db; margin-bottom: 20px;">
+    <img src="./assets/my-photo.jpg" style="width: 130px; border-radius: 50%; border: 3px solid #3498db; margin-bottom: 20px;">
     
     <h1 style="margin: 0; font-size: 2.8em;">Vishnu V. S.</h1>
     <h2 style="font-weight: 300;">
@@ -89,4 +89,4 @@
 
 ---
 
-[📧 Contact Me](mailto:Gvinodsvishnu37@gmail.com) | [📄 Download Full CV](./assets/VISHNU_VS_RESUME.pdf)
+[📧 Contact Me](mailto:Gvinodsvishnu37@gmail.com) | [📄 Download Full CV](./assets/VISHNU_VS~ACADEMIC.pdf)
