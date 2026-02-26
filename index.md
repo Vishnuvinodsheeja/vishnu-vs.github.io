@@ -22,6 +22,25 @@
   });
 </script>
 
+<style>
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    animation: float 3s ease-in-out infinite;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #2ecc71;
+  }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+  }
+</style>
+
+<img src="./assets/your-photo.jpg" class="profile-pic">
+
 # Vishnu V. S.
 **Applied Statistics & Data Analytics - Researcher** 📍 Kollam, Kerala | [LinkedIn](https://www.linkedin.com/in/vishnu-v-s-61616)
 
