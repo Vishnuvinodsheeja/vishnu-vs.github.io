@@ -1,9 +1,25 @@
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<div style="text-align: center; padding: 50px 0;">
+  <h1 style="font-size: 2.5em;">Hi, I'm <span style="color: #2ecc71;">Vishnu V. S.</span></h1>
+  <h2 style="font-size: 1.5em;">
+    Researcher in <span id="typed" style="color: #3498db;"></span>
+  </h2>
+</div>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 <script>
-  // Initialize the animations
-  AOS.init();
+  var typed = new Typed('#typed', {
+    strings: [
+      'Applied Statistics',
+      'Bayesian Inference',
+      'MCMC Algorithms',
+      'Machine Learning',
+      'Data Analytics'
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+  });
 </script>
 
 # Vishnu V. S.
