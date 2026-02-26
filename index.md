@@ -1,5 +1,5 @@
 # Vishnu V. S.
-**Applied Statistics & Data Analytics Researcher** 📍 Kollam, Kerala | [LinkedIn](https://www.linkedin.com/in/vishnu-v-s-61616)
+**Applied Statistics & Data Analytics - Researcher** 📍 Kollam, Kerala | [LinkedIn](https://www.linkedin.com/in/vishnu-v-s-61616)
 
 ---
 
