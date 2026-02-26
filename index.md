@@ -1,45 +1,48 @@
-<div style="text-align: center; padding: 50px 0;">
-  <h1 style="font-size: 2.5em;">Hi, I'm <span style="color: #2ecc71;">Vishnu V. S.</span></h1>
-  <h2 style="font-size: 1.5em;">
-    Researcher in <span id="typed" style="color: #3498db;"></span>
-  </h2>
+<div id="particles-js" style="position: relative; width: 100%; height: 450px; background-color: #0d1117; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 10px; overflow: hidden;">
+  
+  <div style="z-index: 1; text-align: center; color: white;">
+    <img src="./assets/your-photo.jpg" style="width: 130px; border-radius: 50%; border: 3px solid #3498db; margin-bottom: 20px;">
+    
+    <h1 style="margin: 0; font-size: 2.8em;">Vishnu V. S.</h1>
+    <h2 style="font-weight: 300;">
+      Researcher in <span id="typed" style="color: #3498db; font-weight: bold;"></span>
+    </h2>
+    
+    <div style="margin-top: 20px;">
+      <a href="mailto:Gvinodsvishnu37@gmail.com" style="color: white; text-decoration: none; margin: 0 10px; border: 1px solid white; padding: 5px 15px; border-radius: 20px;">Email</a>
+      <a href="https://www.linkedin.com/in/vishnu-v-s-61616" style="color: white; text-decoration: none; margin: 0 10px; border: 1px solid white; padding: 5px 15px; border-radius: 20px;">LinkedIn</a>
+    </div>
+  </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 <script>
-  var typed = new Typed('#typed', {
-    strings: [
-      'Applied Statistics',
-      'Bayesian Inference',
-      'MCMC Algorithms',
-      'Machine Learning',
-      'Data Analytics'
-    ],
-    typeSpeed: 50,
-    backSpeed: 30,
+  /* Typing Animation */
+  new Typed('#typed', {
+    strings: ['Applied Statistics', 'Bayesian Inference', 'MCMC Algorithms', 'Machine Learning'],
+    typeSpeed: 60,
+    backSpeed: 40,
     loop: true
   });
+
+  /* Particle Animation */
+  particlesJS('particles-js', {
+    "particles": {
+      "number": { "value": 80 },
+      "color": { "value": "#3498db" },
+      "shape": { "type": "circle" },
+      "opacity": { "value": 0.5 },
+      "size": { "value": 3 },
+      "line_linked": { "enable": true, "distance": 150, "color": "#3498db", "opacity": 0.4, "width": 1 },
+      "move": { "enable": true, "speed": 2 }
+    },
+    "interactivity": {
+      "events": { "onhover": { "enable": true, "mode": "repulse" } }
+    }
+  });
 </script>
-
-<style>
-  .profile-pic {
-    width: 150px;
-    border-radius: 50%;
-    animation: float 3s ease-in-out infinite;
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #2ecc71;
-  }
-
-  @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0px); }
-  }
-</style>
-
-<img src="./assets/your-photo.jpg" class="profile-pic">
 
 # Vishnu V. S.
 **Applied Statistics & Data Analytics - Researcher** 📍 Kollam, Kerala | [LinkedIn](https://www.linkedin.com/in/vishnu-v-s-61616)
