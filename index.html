@@ -1,33 +1,71 @@
-<div id="particles-js" style="position: relative; width: 100%; height: 450px; background-color: #0d1117; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 10px; overflow: hidden;">
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu V. S. | Portfolio</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        section { margin-bottom: 40px; }
+        h2 { border-bottom: 2px solid #3498db; padding-bottom: 5px; color: #2c3e50; }
+        .skill-tag { background: #eef2f7; padding: 5px 12px; border-radius: 15px; font-size: 0.9em; display: inline-block; margin: 5px; border: 1px solid #d1d9e6; }
+    </style>
+</head>
+<body>
+
+<div id="particles-js" style="position: relative; width: 100%; height: 450px; background-color: #0d1117; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden;">
   <div style="z-index: 1; text-align: center; color: white;">
-    <img src="./assets/my-photo.png" style="width: 130px; border-radius: 50%; border: 3px solid #3498db; margin-bottom: 20px;">
-    
+    <img src="./assets/my-photo.png" style="width: 130px; border-radius: 50%; border: 3px solid #3498db; margin-bottom: 20px;" alt="Vishnu VS">
     <h1 style="margin: 0; font-size: 2.8em;">Vishnu V. S.</h1>
-    <h2 style="font-weight: 300;">
-      Researcher in <span id="typed" style="color: #3498db; font-weight: bold;"></span>
-    </h2>
-    
+    <h2 style="font-weight: 300; border:none; color: white;">Researcher in <span id="typed" style="color: #3498db; font-weight: bold;"></span></h2>
     <div style="margin-top: 20px;">
-      <a href="mailto:Gvinodsvishnu37@gmail.com" style="color: white; text-decoration: none; margin: 0 10px; border: 1px solid white; padding: 5px 15px; border-radius: 20px;">Email</a>
-      <a href="https://www.linkedin.com/in/vishnu-v-s-61616" style="color: white; text-decoration: none; margin: 0 10px; border: 1px solid white; padding: 5px 15px; border-radius: 20px;">LinkedIn</a>
+      <a href="mailto:Gvinodsvishnu37@gmail.com" style="color: white; text-decoration: none; margin: 0 10px; border: 1px solid white; padding: 8px 20px; border-radius: 20px;">Email</a>
+      <a href="https://www.linkedin.com/in/vishnu-v-s-61616" style="color: white; text-decoration: none; margin: 0 10px; border: 1px solid white; padding: 8px 20px; border-radius: 20px;">LinkedIn</a>
     </div>
   </div>
 </div>
 
+<div class="container">
+    <section>
+        <h2>🔬 Research Focus</h2>
+        <p>I am a highly motivated researcher specializing in applying statistical and machine learning techniques to real-world problems. My core interests include <strong>Scalable Bayesian Inference, MCMC Algorithms,</strong> and <strong>Survival Analysis</strong>.</p>
+    </section>
+
+    <section>
+        <h2>📊 Featured Projects</h2>
+        <h3>Stock Price Prediction (Master's Project)</h3>
+        <p>Built LSTM, Random Forest, and KNN models to forecast Kotak Mahindra Bank stock prices. Identified LSTM as the top-performing model based on RMSE.</p>
+        
+        <h3>Survival Analysis on Lung Cancer Data</h3>
+        <p>Applied Cox Proportional Hazards models and Kaplan-Meier curves using R.</p>
+    </section>
+
+    <section>
+        <h2>🛠 Technical Skills</h2>
+        <div class="skill-tag">Python</div> <div class="skill-tag">R (Tidyverse)</div> <div class="skill-tag">SQL</div> <div class="skill-tag">SPSS</div>
+        <div class="skill-tag">Time-Series</div> <div class="skill-tag">MCMC</div> <div class="skill-tag">Bayesian Modeling</div>
+    </section>
+
+    <section>
+        <h2>🎓 Education</h2>
+        <p><strong>M.Sc. Applied Statistics and Data Analytics</strong> | University of Kerala (CGPA: 8.28)</p>
+        <p><strong>B.Sc. Statistics</strong> | University of Kerala (CGPA: 7.63)</p>
+    </section>
+
+    <div style="text-align: center; padding: 40px 0;">
+        <a href="./assets/VISHNU_VS~ACADEMIC.pdf" style="background: #3498db; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">📄 Download Full CV</a>
+    </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
 <script>
-  /* Typing Animation */
   new Typed('#typed', {
     strings: ['Applied Statistics', 'Bayesian Inference', 'MCMC Algorithms', 'Machine Learning'],
-    typeSpeed: 60,
-    backSpeed: 40,
-    loop: true
+    typeSpeed: 60, backSpeed: 40, loop: true
   });
 
-  /* Particle Animation */
   particlesJS('particles-js', {
     "particles": {
       "number": { "value": 80 },
@@ -38,11 +76,12 @@
       "line_linked": { "enable": true, "distance": 150, "color": "#3498db", "opacity": 0.4, "width": 1 },
       "move": { "enable": true, "speed": 2 }
     },
-    "interactivity": {
-      "events": { "onhover": { "enable": true, "mode": "repulse" } }
-    }
+    "interactivity": { "events": { "onhover": { "enable": true, "mode": "repulse" } } }
   });
 </script>
+
+</body>
+</html>
 
 # Vishnu V. S.
 **Applied Statistics & Data Analytics - Researcher** 📍 Kollam, Kerala | [LinkedIn](https://www.linkedin.com/in/vishnu-v-s-61616)
